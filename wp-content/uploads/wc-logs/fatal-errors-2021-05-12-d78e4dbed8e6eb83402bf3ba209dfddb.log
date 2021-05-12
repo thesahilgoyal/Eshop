@@ -1,0 +1,22 @@
+2021-05-12T10:58:28+00:00 CRITICAL Uncaught Error: Call to undefined function wp_update_https_detection_errors() in D:\xampp\htdocs\eshop\wp-admin\includes\class-wp-site-health.php:1503
+Stack trace:
+#0 D:\xampp\htdocs\eshop\wp-admin\includes\class-wp-site-health.php(177): WP_Site_Health->get_test_https_status()
+#1 D:\xampp\htdocs\eshop\wp-admin\includes\class-wp-site-health.php(2743): WP_Site_Health->perform_test(Array)
+#2 D:\xampp\htdocs\eshop\wp-includes\class-wp-hook.php(287): WP_Site_Health->wp_cron_scheduled_check()
+#3 D:\xampp\htdocs\eshop\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\xampp\htdocs\eshop\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\eshop\wp-cron.php(138): do_action_ref_array('wp_site_health_...', Array)
+#6 {main}
+  thrown in D:\xampp\htdocs\eshop\wp-admin\includes\class-wp-site-health.php on line 1503
+
+2021-05-12T10:59:19+00:00 CRITICAL Uncaught Error: Call to undefined function wp_update_https_detection_errors() in D:\xampp\htdocs\eshop\wp-admin\includes\class-wp-site-health.php:1503
+Stack trace:
+#0 D:\xampp\htdocs\eshop\wp-admin\includes\class-wp-site-health.php(177): WP_Site_Health->get_test_https_status()
+#1 D:\xampp\htdocs\eshop\wp-admin\includes\class-wp-site-health.php(2743): WP_Site_Health->perform_test(Array)
+#2 D:\xampp\htdocs\eshop\wp-includes\class-wp-hook.php(287): WP_Site_Health->wp_cron_scheduled_check()
+#3 D:\xampp\htdocs\eshop\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 D:\xampp\htdocs\eshop\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\eshop\wp-cron.php(138): do_action_ref_array('wp_site_health_...', Array)
+#6 {main}
+  thrown in D:\xampp\htdocs\eshop\wp-admin\includes\class-wp-site-health.php on line 1503
+
